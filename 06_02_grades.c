@@ -7,14 +7,7 @@
 
 int grade;
 
-int main(int argc, const char *argv[]) {
-    if (argc == 2) {
-        grade = atoi(argv[1]);
-    } else {
-        printf("You didn't pass a grade argument.");
-        return 0;
-    }
-
+void print_grade(int grade) {
     if (grade == 100) {
         printf("A+");
     } else if (grade >= 90) {
@@ -28,6 +21,16 @@ int main(int argc, const char *argv[]) {
     } else {
         printf("F");
     }
+}
 
+int main(int argc, const char *argv[]) {
+    if (argc == 2) {
+        grade = atoi(argv[1]);
+    } else {
+        printf("You didn't pass a grade argument.");
+        return 0;
+    }
+
+    print_grade(grade);
     return 0;
 }
