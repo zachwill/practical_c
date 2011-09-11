@@ -16,7 +16,7 @@ int main(int argc, const char *argv[]) {
     }
 
     if (grade == 100) {
-        printf("F");
+        printf("A+");
     } else if (grade >= 90) {
         printf("A");
     } else if (grade >= 80) {
