@@ -1,7 +1,19 @@
-// Excercise 6.2
-// =============
-//
-// Given a numeric grade, print the letter.
+/*
+ * =====================================================================================
+ *
+ *       Filename:  06_02_grades.c
+ *
+ *    Description:  Exercise 6.2
+ *                  Given a numeric grade, print the letter.
+ *
+ *        Version:  1.0
+ *        Created:  09/16/2011
+ *       Compiler:  gcc
+ *
+ *         Author:  Zach Williams, hey AT zachwill DOT com
+ *
+ * =====================================================================================
+ */
 
 #include <stdio.h>
 
