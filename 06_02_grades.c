@@ -37,7 +37,7 @@ void print_grade(int grade) {
 
 int main(int argc, const char *argv[]) {
     if (argc == 1) {
-        printf("You didn't pass a grade argument.");
+        printf("You didn't pass a grade argument.\n");
         return 1;
     }
     grade = atoi(argv[1]);

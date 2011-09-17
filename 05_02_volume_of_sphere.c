@@ -30,7 +30,7 @@ float sphere_radius_to_volume(int radius){
 
 int main(int argc, const char *argv[]) {
     if (argc == 1) {
-        printf("You didn't include the radius of a sphere.");
+        printf("You didn't include the radius of a sphere.\n");
         return 1;
     }
     radius = atoi(argv[1]);

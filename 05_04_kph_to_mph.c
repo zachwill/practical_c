@@ -32,7 +32,7 @@ int convert_kph_to_mph(int kilometers) {
 
 int main(int argc, const char *argv[]) {
     if (argc == 1) {
-        printf("You didn't enter a kph speed.");
+        printf("You didn't enter a kph speed.\n");
         return 1;
     }
     kilometers = atoi(argv[1]);
