@@ -29,7 +29,7 @@ int calculate_total_minutes(int hour, int minutes) {
 
 int main(int argc, const char *argv[]) {
     if (argc == 1) {
-        printf("You didn't enter hour or minute arguments.");
+        printf("You didn't enter hour or minute arguments.\n");
         return 1;
     } else if (argc == 2) {
         hour = atoi(argv[1]);
