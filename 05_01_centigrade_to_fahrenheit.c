@@ -3,7 +3,7 @@
  *
  *       Filename:  05_01_centigrade_to_fahrenheit.c
  *
- *    Description:  Exercise 5.01.
+ *    Description:  Exercise 5.1
  *                  Write a program that converts Centigrade to Fahrenheit.
  *
  *        Version:  1.0
