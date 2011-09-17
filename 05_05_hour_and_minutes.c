@@ -31,14 +31,14 @@ int main(int argc, const char *argv[]) {
     if (argc == 1) {
         printf("You didn't enter hour or minute arguments.");
         return 1;
-    } else if(argc == 2) {
+    } else if (argc == 2) {
         hour = atoi(argv[1]);
-        total_minutes = hour * 60;
+        minutes = 0;
     } else {
         hour = atoi(argv[1]);
         minutes = atoi(argv[2]);
-        total_minutes = calculate_total_minutes(hour, minutes);
     }
+    total_minutes = calculate_total_minutes(hour, minutes);
     printf("%d total minutes\n", total_minutes);
     return 0;
 }
