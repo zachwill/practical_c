@@ -36,13 +36,11 @@ void print_grade(int grade) {
 }
 
 int main(int argc, const char *argv[]) {
-    if (argc == 2) {
-        grade = atoi(argv[1]);
-    } else {
+    if (argc == 1) {
         printf("You didn't pass a grade argument.");
-        return 0;
+        return 1;
     }
-
+    grade = atoi(argv[1]);
     print_grade(grade);
     return 0;
 }
