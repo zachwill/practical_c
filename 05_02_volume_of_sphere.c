@@ -19,6 +19,9 @@
 #include <stdio.h>
 #include <math.h>
 
+int radius;
+float volume;
+
 float sphere_radius_to_volume(int radius){
     float float_radius, conversion = (4.0/3.0), pi = 3.14;
     float_radius = (float) radius;
@@ -30,8 +33,6 @@ int main(int argc, const char *argv[]) {
         printf("You didn't include the radius of a sphere.");
         return 1;
     }
-    int radius;
-    float volume;
     radius = atoi(argv[1]);
     volume = sphere_radius_to_volume(radius);
     printf("%f\n", volume);
